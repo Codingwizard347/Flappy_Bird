@@ -22,7 +22,7 @@ basic.forever(function () {
     for (let Obstacle_1 of Green_Bar) {
         Obstacle_1.change(LedSpriteProperty.X, -1)
     }
-    if (tick % 1 == 0) {
+    if (tick % 3 == 0) {
         Emptygreenbar = randint(0, 4)
         Flapy_Bird.set(LedSpriteProperty.Blink, 200)
         for (let index2 = 0; index2 <= 4; index2++) {
